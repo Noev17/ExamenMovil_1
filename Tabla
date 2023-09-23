@@ -1,0 +1,20 @@
+
+import './App.css';
+import Tabla from './componentes/Registro';
+//import Tabla from './componentes/Tabla.js';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+       
+     <Tabla></Tabla>
+         
+      </header>
+    </div>
+  );
+
+ 
+}
+
+export default App;
